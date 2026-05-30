@@ -21,4 +21,11 @@ func main() {
 
 	var g string
 	fmt.Println(g)
+
+	var h, i = "banana", 50
+	fmt.Println(h, i)
+
+	// ERROR - Both j and k variables are 'int values' by inference
+	// var j , k int = "banana", 10
+
 }
